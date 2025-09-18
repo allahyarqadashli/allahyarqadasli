@@ -286,7 +286,7 @@ hiddenElements.forEach((el) => observer.observe(el));
 $(document).ready(function () {
     $('#vimeo').magnificPopup({
         items: {
-            src: 'https://www.youtube.com/watch?v=idEAABFzpfg'
+            src: '<iframe width="560" height="315" src="https://www.youtube.com/embed/k2BEHNnkhkk?si=vuCW278nB2H82f1B&amp;controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>'
         },
         type: 'iframe'
     });
@@ -318,4 +318,5 @@ window.addEventListener("load", () => {
 // skill bar function
 $(function () {
     $('.circlechart').circlechart();
+
 });
