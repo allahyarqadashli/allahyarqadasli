@@ -286,7 +286,7 @@ hiddenElements.forEach((el) => observer.observe(el));
 $(document).ready(function () {
     $('#vimeo').magnificPopup({
         items: {
-            src: 'https://youtu.be/k2BEHNnkhkk?si=2CFoEeS0hrPLbz79'
+            src: 'https://www.youtube.com/watch?v=k2BEHNnkhkk'
         },
         type: 'iframe'
     });
@@ -320,5 +320,6 @@ $(function () {
     $('.circlechart').circlechart();
 
 });
+
 
 
