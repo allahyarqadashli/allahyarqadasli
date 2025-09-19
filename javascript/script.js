@@ -293,9 +293,9 @@ $(document).ready(function () {
 
     $('#youtube').magnificPopup({
         items: {
-            src: 'https://www.youtube.com/watch?v=OZzoAw9QHXY'
+            src: '#foodVideo'
         },
-        type: 'iframe'
+        type: 'inline'
     });
 
     $('.link').magnificPopup({
@@ -320,6 +320,7 @@ $(function () {
     $('.circlechart').circlechart();
 
 });
+
 
 
 
